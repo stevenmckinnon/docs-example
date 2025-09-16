@@ -25,7 +25,7 @@ const navbar = (
   <Navbar
     logo={<b>My Docs App</b>}
     logoLink="/"
-    className="bg-white dark:bg-gray-900 py-0 px-0 w-full"
+    className="bg-white dark:bg-gray-900 py-0 px-0 w-full !max-w-full"
     // ... Your additional navbar options
   />
 );
@@ -58,6 +58,9 @@ export default async function RootLayout({
           docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
           footer={footer}
           darkMode={false}
+          nextThemes={{
+            defaultTheme: "light",
+          }}
           // ... Your additional layout options
         >
           {children}
