@@ -18,7 +18,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/docs"
+              href="/docs/intro"
               className="h-10 bg-teal-500 hover:bg-teal-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 transform hover:scale-105 shadow-lg"
             >
               Get Started
